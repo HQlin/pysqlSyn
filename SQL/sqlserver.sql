@@ -23,7 +23,6 @@ INSERT INTO Persons (Id_P, LastName, FirstName, Address, City, CREATEDATE) VALUE
 INSERT INTO Persons (Id_P, LastName, FirstName, Address, City, CREATEDATE) VALUES ('0', 'huang', 'qinglin', 'tianhe', 'guangzhou', getdate());
 
 select top 1 * from Persons order by CREATEDATE desc;
-select * from Persons order by CREATEDATE desc limit 1;
 
 select * from Persons order by CREATEDATE desc;
 delete Persons where Id_P = 0;

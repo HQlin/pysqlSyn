@@ -4,30 +4,30 @@ http://www.ddooo.com/softdown/60921.htm#dltab
 pip install cx_Oracle
 
 --创建表
-create table Persons(
-       Id_P number(2),
-       LastName VARCHAR(100),
-       FirstName VARCHAR(100),
-       Address VARCHAR(100),
-       City VARCHAR(100),
-       CREATEDATE date
+CREATE TABLE PERSONS(
+       ID_P NUMBER(2),
+       LASTNAME VARCHAR(100),
+       FIRSTNAME VARCHAR(100),
+       ADDRESS VARCHAR(100),
+       CITY VARCHAR(100),
+       CREATEDATE DATE
        );
        
-create table Persons_his(
-       Id_P number(2),
-       LastName VARCHAR(100),
-       FirstName VARCHAR(100),
-       Address VARCHAR(100),
-       City VARCHAR(100),
-       CREATEDATE date
+CREATE TABLE PERSONS_HIS(
+       ID_P NUMBER(2),
+       LASTNAME VARCHAR(100),
+       FIRSTNAME VARCHAR(100),
+       ADDRESS VARCHAR(100),
+       CITY VARCHAR(100),
+       CREATEDATE DATE
        );
        
 --插入数据
-INSERT INTO Persons (Id_P, LastName, FirstName, Address, City, CREATEDATE) VALUES ('0', 'huang', 'qinglin', 'tianhe', 'guangzhou', sysdate);
-commit;
+INSERT INTO PERSONS (ID_P, LASTNAME, FIRSTNAME, ADDRESS, CITY, CREATEDATE) VALUES ('0', 'HUANG', 'QINGLIN', 'TIANHE', 'GUANGZHOU', SYSDATE);
+COMMIT;
 
 --查看前几条数据
-select * from Persons where rownum <= 1 order by CREATEDATE desc;
+SELECT * FROM PERSONS WHERE ROWNUM <= 1 ORDER BY CREATEDATE DESC;
 
 --控制台连接
 sqlplus system/Yang123456@127.0.0.1:1521/orcl

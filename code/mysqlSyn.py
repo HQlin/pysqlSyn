@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 
-import pymysql 
+import pymysql
 from logger import *
 import time
 
