@@ -1,39 +1,39 @@
 # pysqlSyn
 
-## ¹¤³Ì¼ò½é
+## å·¥ç¨‹ç®€ä»‹
 
-### pythonÖ§³Ö¸÷ÀàÊý¾Ý¿âÊý¾ÝÍ¬²½
+### pythonæ”¯æŒå„ç±»æ•°æ®åº“æ•°æ®åŒæ­¥
 
-## ¹¤³ÌÏê½â
+## å·¥ç¨‹è¯¦è§£
 
-- **¿ª·¢»·¾³**
+- **å¼€å‘çŽ¯å¢ƒ**
 	
-  > Win10 64Î» + Python 2.7.14
+  > Win10 64ä½ + Python 2.7.14
 
-- **Ä¿Â¼½á¹¹** 
+- **ç›®å½•ç»“æž„** 
 
-  >--code																								³ÌÐò
+  >--code																								ç¨‹åº
 
-        |-logger.py    ÈÕÖ¾Àà	
-        |-mysqlSyn.py    mysqlÊý¾Ý¿âµÄÊý¾ÝÍ¬²½
-        |-oracleSyn.py    oracleÊý¾Ý¿âµÄÊý¾ÝÍ¬²½
-        |-sqlserverSyn.py    sqlserverÊý¾Ý¿âµÄÊý¾ÝÍ¬²½
-        |-sqlConn.py    ¸÷ÀàÊý¾Ý¿â¼¯ºÏÀà
-        |-allSyn.py    ²»Í¬Êý¾Ý¿âÖ®¼äÊý¾ÝÍ¬²½
-  >--SQL																								sqlÓï¾ä
+        |-logger.py    æ—¥å¿—ç±»	
+        |-mysqlSyn.py    mysqlæ•°æ®åº“çš„æ•°æ®åŒæ­¥
+        |-oracleSyn.py    oracleæ•°æ®åº“çš„æ•°æ®åŒæ­¥
+        |-sqlserverSyn.py    sqlserveræ•°æ®åº“çš„æ•°æ®åŒæ­¥
+        |-sqlConn.py    å„ç±»æ•°æ®åº“é›†åˆç±»
+        |-allSyn.py    ä¸åŒæ•°æ®åº“ä¹‹é—´æ•°æ®åŒæ­¥
+  >--SQL																								sqlè¯­å¥
 
-        |-mysql.sql    mysql»·¾³		
-        |-oracle.sql    oracle»·¾³		
-        |-sqlserver.sql    sqlserver»·¾³
+        |-mysql.sql    mysqlçŽ¯å¢ƒ		
+        |-oracle.sql    oracleçŽ¯å¢ƒ		
+        |-sqlserver.sql    sqlserverçŽ¯å¢ƒ
 
-- **×¢Òâ**
+- **æ³¨æ„**
 	
-  > oracle±íÃûÓë×Ö¶ÎÃûÎÞ´óÐ¡Ð´Çø·Ö£¬×Öµä»ñÈ¡×Ö¶ÎÃû³Æ¾ùÎª´óÐ´
-  > mysqlÓësqlserver±íÃûÓë×Ö¶ÎÓÐ´óÐ¡Ð´Çø·Ö£¬×Öµä»ñÈ¡×Ö¶ÎÃû³ÆÓÐ´óÐ¡Ð´Çø·Ö
+  > oracleè¡¨åä¸Žå­—æ®µåæ— å¤§å°å†™åŒºåˆ†ï¼Œå­—å…¸èŽ·å–å­—æ®µåç§°å‡ä¸ºå¤§å†™  
+  > mysqlä¸Žsqlserverè¡¨åä¸Žå­—æ®µæœ‰å¤§å°å†™åŒºåˆ†ï¼Œå­—å…¸èŽ·å–å­—æ®µåç§°æœ‰å¤§å°å†™åŒºåˆ†  
 
-## ÁªÏµÐÅÏ¢
+## è”ç³»ä¿¡æ¯
 
-> Address£º     **¹ãÖÝ**  
+> Addressï¼š     **å¹¿å·ž**  
 > Email:        [**SwimYanglin@foxmail.com**][email-addr]  
 > Github:       [**github.com/HQlin**][github-site]  
 
