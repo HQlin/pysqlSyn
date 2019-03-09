@@ -14,16 +14,16 @@
 
   >--code																								程序
 
-        |-logger.py                              				日志类	
-        |-mysqlSyn.py                                   mysql数据库数据同步
-        |-oracleSyn.py                                  oracle数据库数据同步
-        |-sqlserverSyn.py                               sqlserver数据库数据同步
+        |-logger.py    日志类	
+        |-mysqlSyn.py    mysql数据库数据同步
+        |-oracleSyn.py    oracle数据库数据同步
+        |-sqlserverSyn.py    sqlserver数据库数据同步
 		
   >--SQL																								sql语句
 
-        |-mysql.sql                                    	mysql环境		
-        |-oracle.sql                                	 	oracle环境		
-        |-sqlserver.sql                                 sqlserver环境
+        |-mysql.sql    mysql环境		
+        |-oracle.sql    oracle环境		
+        |-sqlserver.sql    sqlserver环境
 	
 ## 联系信息
 
